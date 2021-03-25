@@ -2,7 +2,7 @@
 
 ## Overview
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+An employee directory created with React. Which break up the application's UI into components, manage component state, and respond to user events.
 
 ## User Story
 
@@ -22,3 +22,9 @@ The user should be able to:
 
   * Filter the users by at least one property.
 
+## Links
+
+  * Deployed Link: https://employees-info.herokuapp.com/
+  * Repository Link: https://github.com/saidmg/employee-directory
+
+## Screenshots
