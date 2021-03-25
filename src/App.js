@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import About from './pages/About';
+import HomePage from './pages/HomePage';
+// import NoMatch from './pages/NoMatch';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div >
+        <NavBar />
+        <Route exact path='/' component={About} />
+        <Route exact path='/about' component={About} />
+        <Route exact path='/home' component={HomePage} />
+        {/* <Route path='/error' component={NoMatch} /> */}
+      </div>
+      <Footer />
+    </Router>
   );
 }
 
