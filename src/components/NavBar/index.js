@@ -19,17 +19,6 @@ function NavBar() {
                         , listStyle: "none", textDecoration: "None"
                     }}>About</Link>
                 </Nav>
-                <Nav>
-                    <Nav.Link href="#deets">Sort By Name</Nav.Link>
-                    <Nav.Link href="">|</Nav.Link>
-                    <Nav.Link eventKey={2} href="#memes">
-                        Filter By Gender
-            </Nav.Link>
-                    <Form inline>
-                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-info">Search</Button>
-                    </Form>
-                </Nav>
             </Navbar.Collapse>
         </Navbar>
     
