@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom"
-import "./style.css";
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
 function NavBar() {
@@ -33,19 +32,7 @@ function NavBar() {
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-        // <ul>
-        //     <li>
-        //         <Link to="/about">About</Link>
-        //     </li>
-        //     <li>
-        //         <Link to="/home">Home</Link>
-        //     </li>
-        //     {/* <li>
-        //         <Link to="/error404">Error 404</Link>
-        //     </li> */}
-        // </ul>
-
-
+    
     )
 }
 

@@ -1,5 +1,4 @@
 import React from 'react';
-// import Table from 'react-bootstrap/Table'
 import { Container, Table, Image } from 'react-bootstrap';
 
 function TableList(props) {

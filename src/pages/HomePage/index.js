@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import SearchInput from '../../components/SearchInput'
 import Content from '../../components/Content';
 import API from '../../utils/API';
-import './style.css'
 
 class HomePage extends Component {
 
