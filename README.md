@@ -28,3 +28,6 @@ The user should be able to:
   * Repository Link: https://github.com/saidmg/employee-directory
 
 ## Screenshots
+
+![Capture](https://user-images.githubusercontent.com/71358869/112404985-c7a8e200-8ce7-11eb-9022-afda6a8ff78a.JPG)
+![Capture1](https://user-images.githubusercontent.com/71358869/112404998-ce375980-8ce7-11eb-8a03-8fc4a269fb0d.JPG)
